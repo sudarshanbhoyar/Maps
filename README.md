@@ -19,15 +19,6 @@ A curated collection of **open GeoJSON files** for borders, maps, and geospatial
 
 ## 🛠️ How to Use  
 
-### 1. **Direct Raw URL** (for OpenLayers/Leaflet)  
-```javascript
-// OpenLayers example
-new ol.layer.Vector({
-    source: new ol.source.Vector({
-        url: 'https://raw.githubusercontent.com/your-username/repo-name/main/Country/India.geojson',
-        format: new ol.format.GeoJSON()
-    })
-});
 
 ### 1. **Direct Raw URL** (for OpenLayers/Leaflet)  
 ```HTML
